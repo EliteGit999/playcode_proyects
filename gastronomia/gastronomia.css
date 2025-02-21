@@ -1,0 +1,67 @@
+@keyframes cambioDeColor{
+    0%{background-color: rgb(255, 243, 68);}
+    25%{background-color: rgb(255, 221, 27);}
+    50%{background-color: rgb(255, 157, 29);}
+    75%{background-color: rgb(250, 121, 0);}
+    100%{background-color: rgb(255, 72, 0);}
+}
+
+body{
+    animation: cambioDeColor 7.5s infinite alternate;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.campanas{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.en{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noche{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(255, 0, 242);
+    font-size: 50px;
+}
+.demente{
+    display: block;
+    align-items: center;
+    font-size: 25px;
+    color: hsl(310, 85%, 43%);
+}
+
+.silencio{
+    font-size: 35px;
+    text-decoration: underline;
+    color: rgb(140, 0, 255);
+    display: block;
+}
+.brujeria{
+    font-size: 20px;
+    color: hsl(288, 89%, 56%);
+    display: block;
+}
+.espacio{
+    image-resolution: 400px;
+    display: block;
+    width: 300px;
+    height: 350px;
+}

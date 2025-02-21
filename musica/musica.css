@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right, rgb(99, 224, 172), rgb(117, 236, 220), rgb(104, 182, 228));
+}
+
+.titulo{
+    color: rgb(8, 19, 121);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.tecknicolor{
+    font-size: 25px;
+    color: rgb(99, 38, 139);
+    display: block;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobredosis{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.cartas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zafar{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.petalo{
+    font-size: 35px;
+    color: rgb(7, 72, 170);
+    display: block;
+    align-items: center;
+    text-decoration: underline;
+}
+.insomnio{
+    font-size: 20px;
+    color: rgb(0, 117, 172);
+    display: block;
+}
+.confia{
+    image-resolution: 400px;
+    width: 300px;
+    height: 350px;
+    display: block;
+}

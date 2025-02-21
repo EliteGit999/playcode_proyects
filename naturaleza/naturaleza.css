@@ -1,0 +1,74 @@
+@keyframes cambioDeColor{
+    0%{background-color: rgb(199, 223, 64);}
+    25%{background-color: rgb(165, 247, 59);}
+    50%{background-color: rgb(48, 219, 120);}
+    75%{background-color: rgb(14, 179, 14);}
+    100%{background-color: rgb(0, 153, 59);}
+}
+
+body{
+    animation: cambioDeColor 7.5s infinite alternate;
+}
+
+.aguja{
+    display: flex;
+    justify-content: space-between;
+}
+.evolucion{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.fijismo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.transformismo{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(211, 155, 0);
+    font-size: 50px;
+}
+.cambio{
+    display: block;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(203, 138, 16);
+}
+
+.seleccion{
+    font-size: 35px;
+    text-decoration: underline;
+    color: rgb(32, 87, 0);
+    display: block;
+}
+.natural{
+    font-size: 20px;
+    color: hsl(78, 99%, 33%);
+    display: block;
+}
+.smith{
+    font-size: 20px;
+    color: rgb(173, 98, 0);
+    text-decoration: underline;
+    display: block;
+}
+.estratos{
+    font-size: 20px;
+    color: hsl(46, 93%, 23%);
+    display: block;
+}
+.artificial{
+    image-resolution: 400px;
+    display: block;
+    width: 300px;
+    height: 350px;
+}

@@ -1,0 +1,71 @@
+@keyframes cambioDeColor{
+    0%{background-color: beige;}
+    25%{background-color: bisque;}
+    50%{background-color: burlywood;}
+    75%{background-color: darksalmon;}
+    100%{background-color: coral;}
+}
+
+body{
+    animation: cambioDeColor 7.5s infinite alternate;
+}
+
+.deporte{
+    display: flex;
+    justify-content: center;
+    color: rgb(73, 214, 108);
+    text-decoration: underline;
+    font-size: 50px;
+}
+.text1{
+    display: block;
+    font-size: 25px;
+    color: rgb(37, 141, 106);
+}
+
+.omega{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.epsiron{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+.alfa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.beta{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+.oro{
+    color: rgb(200, 76, 224);
+    font-size: 35px;
+    text-decoration: underline;
+}
+.cofradia{
+    image-resolution: 400px;
+    height: 300px;
+    width: 350px;
+    display: block;
+}
+.giga{
+    font-size: 25px;
+    color: indigo;
+    display: block;
+    text-decoration: dotted;
+}
+.gama{
+    font-size: 15px;
+    color: indigo;
+    display: block;
+}

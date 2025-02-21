@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(47, 236, 30), rgb(255, 240, 31) );
+}
+.titulo{
+    font-size: 50px;
+    color: rgb(50, 50, 165);
+    transition: color 1s ease;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.membrillo{
+    font-size: 25px;
+    color: rgb(105, 105, 231);
+    transition: color 1s ease;
+    display: block;
+}
+.titulo:hover{
+    color: darkmagenta;
+}
+.membrillo:hover{
+    color: rgb(183, 0, 255);
+}
+
+.jojos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodolfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.baltazar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.melchor{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.virus{
+    font-size: 35px;
+    color: rgb(230, 35, 126);
+    text-decoration: underline;
+    display: block;
+}
+.imagenes{
+    color: darkcyan;
+    font-size: 20;
+    display: block;
+}
+.paganas{
+    display: block;
+    width: 300px;
+    height: 350px;
+    image-resolution: 400px;
+}

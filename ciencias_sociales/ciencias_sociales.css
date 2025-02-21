@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to left, #aaaaaa, grey, #494949, black);
+
+}
+.ciencias_sociales{
+    font-size: 50px;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    transition: color 2s ease-in;
+    text-decoration: underline;
+}
+.ciencias_sociales:hover{
+    color: violet;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.peron1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.peron2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.peron3{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.texto1{
+    font-size: 25px;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caspa1{
+    font-size: 25px;
+    color: rgb(63, 216, 183);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sociales{
+    font-size: 36px;
+    color: darkblue;
+    transition: color 2s ease-in;
+    text-decoration: underline;
+}
+.sociales:hover{
+    color: violet;
+}
+.textos{
+    font-size: 15px;
+    color: rgb(75, 219, 224);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.caspa{
+    color: rgb(240, 255, 31);
+}
+img{
+    display: block;
+    image-resolution: 400px;
+    width: 300px;
+    height: 350px;
+}

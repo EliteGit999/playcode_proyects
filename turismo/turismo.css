@@ -1,0 +1,67 @@
+@keyframes cambioDeColor{
+    0%{background-color: rgb(104, 255, 210);}
+    25%{background-color: rgb(60, 209, 202);}
+    50%{background-color: rgb(35, 175, 152);}
+    75%{background-color: rgb(54, 131, 145);}
+    100%{background-color: rgb(12, 89, 102);}
+}
+
+body{
+    animation: cambioDeColor 7.5s infinite alternate;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.joroba{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.garganta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diablo{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(102, 102, 102);
+    font-size: 50px;
+}
+.tartamudo{
+    display: block;
+    align-items: center;
+    font-size: 25px;
+    color: hsl(0, 0%, 71%);
+}
+
+.jarabe{
+    font-size: 35px;
+    text-decoration: underline;
+    color: rgb(139, 139, 139);
+    display: block;
+}
+.palo{
+    font-size: 20px;
+    color: hsl(291, 23%, 94%);
+    display: block;
+}
+.cargada{
+    image-resolution: 400px;
+    display: block;
+    width: 300px;
+    height: 350px;
+}

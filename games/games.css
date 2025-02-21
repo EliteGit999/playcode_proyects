@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right, rgb(238, 255, 0), rgb(255, 230, 0), rgb(255, 208, 0));
+}
+
+.titulo{
+    color: rgb(0, 73, 0);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.jessie{
+    font-size: 25px;
+    color: rgb(80, 153, 7);
+    display: block;
+}
+
+.maradona{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messi1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.messi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.messi3{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.molina{
+    font-size: 35px;
+    color: rgb(62, 102, 2);
+    display: block;
+    align-items: center;
+    text-decoration: underline;
+}
+.brey{
+    font-size: 20px;
+    color: rgb(24, 156, 24);
+    display: block;
+}
+.omega{
+    image-resolution: 400px;
+    width: 300px;
+    height: 350px;
+    display: block;
+}

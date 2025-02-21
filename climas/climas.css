@@ -1,0 +1,74 @@
+@keyframes cambioDeColor{
+    0%{background-color: rgb(13, 192, 132);}
+    25%{background-color: rgb(7, 170, 170);}
+    50%{background-color: cadetblue;}
+    75%{background-color: rgb(15, 56, 131);}
+    100%{background-color: darkcyan;}
+}
+body{
+    animation: cambioDeColor 7.5s infinite alternate;
+}
+
+.ñandu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.llama{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.alpaca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guanaco{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(243, 48, 87);
+    font-size: 50px;
+    transition: color 1s ease;
+}
+.prime{
+    color: rgb(252, 147, 50);
+    font-size: 25px;
+    display: block;
+    transition: color 1s ease;
+}
+.titulo:hover{
+    color: brown;
+}
+.prime:hover{
+    color: rgb(247, 97, 10);
+}
+
+.peru{
+    color: rgb(182, 142, 13);
+    font-size: 35px;
+    display: block;
+    text-decoration: underline;
+}
+.prepago{
+    color: rgb(253, 239, 45);
+    font-size: 15px;
+    display: block;
+}
+.carcaza{
+    image-resolution: 400px;
+    width: 300px;
+    height: 400px;
+    display: block;
+}
